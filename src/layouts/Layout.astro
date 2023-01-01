@@ -1,4 +1,5 @@
 ---
+import generateOgImage from "@utils/generateOgImage";
 import { SITE } from "src/config";
 import "../styles/base.css";
 
@@ -15,15 +16,17 @@ const {
   title = SITE.title,
   author = SITE.author,
   description = SITE.desc,
-  ogImage = SITE.ogImage,
+  ogImage = "",
 } = Astro.props;
 
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 
-const socialImageURL = new URL(
-  ogImage ? ogImage : SITE.ogImage,
-  Astro.url.origin
-).href;
+let ogImageUrl: string = ogImage;
+if (ogImage === "") {
+  ogImageUrl = await generateOgImage(title);
+}
+
+const socialImageURL = new URL(ogImageUrl, Astro.url.origin).href;
 
 const fallbackImageURL = new URL(SITE.ogImage, Astro.url.origin).href;
 ---
