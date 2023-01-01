@@ -4,7 +4,7 @@ export const SITE = {
   website: "https://blog.stenyan.dev/",
   author: "stefafafan",
   desc: "Japanese software engineer stefafafan's technical blog.",
-  title: "stefafafan's english blog",
+  title: "stefafafan's tech blog",
   ogImage: "astropaper-og.jpg", // TODO(stefafafan): ogimage
   lightAndDarkMode: true,
   postPerPage: 3,
