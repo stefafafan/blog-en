@@ -1,7 +1,7 @@
 import type { SocialObjects } from "./types";
 
 export const SITE = {
-  website: "https://astro-paper.pages.dev/", // TODO(stefafafan): change to my domain.
+  website: "https://blog.stenyan.dev/",
   author: "stefafafan",
   desc: "Japanese software engineer stefafafan's technical blog.",
   title: "stefafafan's english blog",
