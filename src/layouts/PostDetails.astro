@@ -6,6 +6,7 @@ import Tag from "@components/Tag.astro";
 import Datetime from "@components/Datetime";
 import type { MarkdownInstance } from "astro";
 import type { Frontmatter } from "src/types";
+import { SITE } from "src/config";
 
 export interface Props {
   post: MarkdownInstance<Frontmatter>;
@@ -19,7 +20,12 @@ const ogUrl = new URL(ogImage ? ogImage : `${title}.svg`, Astro.url.origin)
   .href;
 ---
 
-<Layout title={title} author={author} description={description} ogImage={ogUrl}>
+<Layout
+  title={`${title} | ${SITE.title}`}
+  author={author}
+  description={description}
+  ogImage={ogUrl}
+>
   <Header />
   <div class="max-w-3xl mx-auto w-full px-2 flex justify-start">
     <button
