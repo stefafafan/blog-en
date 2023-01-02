@@ -83,11 +83,11 @@ Regarding software bottlenecks, I've recently written below (I'm sorry that this
 
 ### Principles regarding detailed techniques
 
-1. Store data in flat text files.
-1. Use software leverage to your advantage.
-1. Use shell scripts to increase leverage and portability.
-1. Avoid captive user interfaces.
-1. Make every program a filter.
+- Store data in flat text files.
+- Use software leverage to your advantage.
+- Use shell scripts to increase leverage and portability.
+- Avoid captive user interfaces.
+- Make every program a filter.
 
 These principles were focused on techniques/guidelines when developing cli tools for unix. After reading these sections, it really made me feel like coding some small and portable programs using shell script.
 
