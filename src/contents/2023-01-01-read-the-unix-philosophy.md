@@ -10,7 +10,7 @@ tags:
   - unix
   - software design
 ogImage: ""
-description: My impressions of the book "The UNIX Philosophy" by Mike-Gancarz.
+description: My impressions of the book "The UNIX Philosophy" by Mike Gancarz.
 ---
 
 The Japanese version of this blog post is here: [『UNIX という考え方―その設計思想と哲学』を読んだ - stefafafan の fa は 3 つです](https://blog.stenyan.jp/entry/2023/01/01/000000).
