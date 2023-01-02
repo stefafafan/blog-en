@@ -43,6 +43,34 @@ const ogUrl = new URL(ogImage ? ogImage : `${title}.svg`, Astro.url.origin)
     <ul class="tags-container">
       {tags.map(tag => <Tag name={tag} />)}
     </ul>
+    <ul class="social-button-container">
+      <li>
+        <a class="twitter-share-button" href="https://twitter.com/intent/tweet"
+          >Tweet</a
+        >
+      </li>
+      <li>
+        <a
+          href="https://b.hatena.ne.jp/entry/"
+          class="hatena-bookmark-button"
+          data-hatena-bookmark-layout="vertical-normal"
+          data-hatena-bookmark-lang="en"
+          title="Add this entry to bookmark."
+          ><img
+            src="https://b.st-hatena.com/images/v4/public/entry-button/button-only@2x.png"
+            alt="Add this entry to bookmark."
+            width="20"
+            height="20"
+            style="border: none;"
+          />
+        </a><script
+          type="text/javascript"
+          src="https://b.st-hatena.com/js/bookmark_button.js"
+          charset="utf-8"
+          async="async"
+        ></script>
+      </li>
+    </ul>
   </main>
   <Footer />
 </Layout>
@@ -56,5 +84,11 @@ const ogUrl = new URL(ogImage ? ogImage : `${title}.svg`, Astro.url.origin)
   }
   .tags-container {
     @apply my-8;
+  }
+  .social-button-container {
+    @apply my-8;
+  }
+  .social-button-container > li {
+    display: inline-block;
   }
 </style>
