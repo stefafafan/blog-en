@@ -33,7 +33,7 @@ Extremely easy.
 ### Astro
 
 I've heard sites built with Astro are fast--that does seem to be true (of course, this blog does not have much images or content yet).
-![PageSpeed Insights results for blog.stenyan.dev](https://cdn-ak.f.st-hatena.com/images/fotolife/s/stefafafan/20230102/20230102192705.png)
+![PageSpeed Insights results for blog.stenyan.dev](https://user-images.githubusercontent.com/3520520/210468641-5ab90bc4-21c9-43eb-bde9-803084e7aee6.png)
 
 I was also surprised from the strong integration of Astro and Vercel. One can also use other deploy methods like GitHub Pages etc.; the documentation explains all the different methods that can be used and is very easy to follow.
 
@@ -46,7 +46,7 @@ Vercel's preview deployment feature seamlessly got integrated which was very con
 [stefafafan/blog-en](https://github.com/stefafafan/blog-en)
 
 For example for the following pull request you can see the Vercel bot commenting, and when you click the `Visit Preview` link it takes you to a preview of the deployment. I always check this out before merging and deploying to production.
-![Comments from the Vercel bot](https://cdn-ak.f.st-hatena.com/images/fotolife/s/stefafafan/20230102/20230102192252.png)
+![Comments from the Vercel bot](https://user-images.githubusercontent.com/3520520/210468578-8b0c0c24-154c-4942-9ba2-a46e60e10269.png)
 
 ### Dynamic OG image generation of AstroPaper
 
