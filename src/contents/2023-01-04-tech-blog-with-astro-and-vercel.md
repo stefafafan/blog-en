@@ -55,9 +55,11 @@ A few days ago I noticed AstroPaper supported dynamic OG image generation. When 
 [feat: generate dynamic og image for blog posts by satnaing · Pull Request #15 · satnaing/astro-paper](https://github.com/satnaing/astro-paper/pull/15)
 
 It uses the same library used by the feature introduced recently from Vercel: [Satori](https://github.com/vercel/satori).
+
 [Introducing OG Image Generation: Fast, dynamic social card images at the Edge – Vercel](https://vercel.com/blog/introducing-vercel-og-image-generation-fast-dynamic-social-card-images)
 
 That's a nice feature, but according to the following post Twitter does not support `svg` as the OG image, so it doesn not work there which is a downside. I am looking forward to Twitter support.
+
 [Dynamic OG image generation in AstroPaper blog posts](https://astro-paper.pages.dev/posts/dynamic-og-image-generation-in-astropaper-blog-posts/)
 
 ## Regarding writing technical blog posts in English
