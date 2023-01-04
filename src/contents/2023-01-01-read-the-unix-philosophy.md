@@ -3,7 +3,7 @@ author: stefafafan
 datetime: 2022-12-31T15:00:00Z
 title: Read the book "The UNIX Philosophy"
 slug: 2023-01-01-read-the-unix-philosophy
-featured: true
+featured: false
 draft: false
 tags:
   - book
