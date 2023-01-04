@@ -1,6 +1,6 @@
 ---
 author: stefafafan
-datetime: 2022-01-04T01:40:00Z
+datetime: 2023-01-04T01:40:00Z
 title: I've created a new tech blog using Astro and Vercel
 slug: 2023-01-04-tech-blog-with-astro-and-vercel
 featured: true
