@@ -9,7 +9,7 @@ tags:
   - github
   - github actions
 ogImage: ""
-description:
+description: Thoughts on when and how to use GitHub Reusable Workflows vs. Composite Actions.
 ---
 
 The Japanese version of this blog post is here: [GitHub Reusable Workflows と Composite Actions の使い分けについて考えた - stefafafan の fa は 3 つです](https://blog.stenyan.jp/entry/2023/01/05/211449).
