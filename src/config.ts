@@ -32,7 +32,7 @@ export const SOCIALS: SocialObjects = [
   },
   {
     name: "Mastodon",
-    href: "https://social.vivaldi.net/@stenyan",
+    href: "https://social.stenyan.dev/@stenyan",
     linkTitle: `${SITE.author} on Mastodon`,
     active: true,
   },
